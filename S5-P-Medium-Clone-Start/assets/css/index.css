@@ -1,0 +1,74 @@
+/*LOGO E NAV*/
+.boxA {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo {
+    margin-block: 1.5rem;
+}
+.nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-inline: 1.5rem;
+}
+.navItem {
+    margin-inline: 7px;
+}
+.btn {
+    background-color: #191919;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+
+/*TITOLO e ARTWORK*/
+.boxB {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.titolo {
+    display:flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    margin-top: 10rem;
+}
+.curious {
+    font-family: 'Spectral', serif;
+    font-weight: 100;
+    font-size: 100px;
+    margin-bottom: 35px;
+    white-space: nowrap;
+}
+.titolo p {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.titolo .btn {
+    width: 40%;
+    margin-bottom: 5rem;
+}
+
+/* TRENDING AREA*/
+.boxC {
+    font-family: 'Roboto', sans-serif;
+    margin-block: 3rem;
+    margin-inline: 8rem;
+}
+.boxTrend {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardTrend {
+    display: flex;
+    max-width: 33%;
+}
