@@ -2,11 +2,12 @@
 .boxA {
     background-color: #ffc017;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-inline: 5rem;
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 .logo {
     margin-block: 1.5rem;
@@ -37,8 +38,8 @@
 .titolo {
     display:flex;
     flex-direction: column;
-    margin-left: 8rem;
-    margin-top: 10rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
 }
 .curious {
     font-family: 'Spectral', serif;
@@ -62,7 +63,14 @@
 .boxC {
     font-family: 'Roboto', sans-serif;
     margin-block: 3rem;
-    margin-inline: 8rem;
+    margin-inline: 5rem;
+    color:#191919
+}
+.trendingTitle {
+    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+    display:flex;
+    align-items: center;
 }
 .boxTrend {
     display: flex;
@@ -70,5 +78,33 @@
 }
 .cardTrend {
     display: flex;
-    max-width: 33%;
+    width: 33%;
+    margin-bottom: 50px;
+}
+.autore {
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.nome {
+    padding-left: 10px;
+}
+.numero {
+    font-size: 25px;
+    margin-right: 10px;
+    opacity: 0.3;
+}
+.trendTitle {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.trendContent {
+    margin-left: 10px;
+}
+.cardTrend .autore img {
+    width: 5%;
+}
+.data{
+    display: flex;
+    align-items: center;
 }
